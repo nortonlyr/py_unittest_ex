@@ -16,3 +16,10 @@ def test_keyerror_details():
     with pytest.raises(KeyError) as ke:
         baz = my_map["baz"]
         print("Found Baz: {}".format(baz))
+
+def test_approximate_matches():
+    """
+    pytest.approx can be used to assert "approximate" numerical equality
+    (compare UnitTest's asserAlmostEqual)
+    """
+    assert(0.1 + 0.2) == pytest.approx(0.3)

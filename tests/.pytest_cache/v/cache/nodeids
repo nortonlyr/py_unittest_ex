@@ -1,4 +1,5 @@
 [
+  "02_special_assertions.py::test_approximate_matches",
   "02_special_assertions.py::test_div_zero_exception",
   "02_special_assertions.py::test_keyerror_details"
 ]
