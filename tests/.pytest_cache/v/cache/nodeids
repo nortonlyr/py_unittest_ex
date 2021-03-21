@@ -1,1 +1,4 @@
-[]
+[
+  "02_special_assertions.py::test_div_zero_exception",
+  "02_special_assertions.py::test_keyerror_details"
+]
