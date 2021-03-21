@@ -5,5 +5,7 @@
   "03_simple_fixture_test.py::test_with_global_fixture",
   "03_simple_fixture_test.py::test_with_local_fixture",
   "04_fixture_returns_test.py::test_with_data_fixture",
-  "05_yield_fixture_test.py::test_with_yield_fixture"
+  "05_yield_fixture_test.py::test_with_yield_fixture",
+  "06_request_test.py::test_with_introspection",
+  "07_request_finalizer_test.py::test_with_safe_cleanup_fixgure"
 ]
