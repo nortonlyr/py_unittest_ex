@@ -1,3 +1,10 @@
 {
-  "01_basic_test.py": true
+  "01_basic_test.py": true,
+  "08_params_test.py::test_parameterization": true,
+  "09_params-ception_test.py::test_fixtureception": true,
+  "09_params-ception_test.py::test_fixtureception[1]": true,
+  "09_params-ception_test.py::test_fixtureception[2]": true,
+  "09_params-ception_test.py::test_fixtureception[3]": true,
+  "09_params-ception_test.py::test_fixtureception[4]": true,
+  "10_advanced_params-ception_test.py::test_advanced_fixtureception": true
 }
