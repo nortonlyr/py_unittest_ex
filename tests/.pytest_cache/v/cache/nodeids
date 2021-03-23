@@ -56,5 +56,8 @@
   "10_advanced_params-ception_test.py::test_advanced_fixtureception[d-1]",
   "10_advanced_params-ception_test.py::test_advanced_fixtureception[d-2]",
   "10_advanced_params-ception_test.py::test_advanced_fixtureception[d-3]",
-  "10_advanced_params-ception_test.py::test_advanced_fixtureception[d-4]"
+  "10_advanced_params-ception_test.py::test_advanced_fixtureception[d-4]",
+  "11_mark_test.py::test_fake_query",
+  "11_mark_test.py::test_fake_stats_function",
+  "11_mark_test.py::test_fake_ulti_join_query"
 ]

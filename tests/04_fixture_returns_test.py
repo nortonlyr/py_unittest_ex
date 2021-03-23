@@ -15,7 +15,7 @@ def test_with_data_fixture(one_fixture):
 @pytest.fixture
 def one_fixture():
     """
-    Beyond just "doing stuff", fixtures can return data, which PyTest will pass to the test cases that refer to it...
+    Beyond just "doing stuff", fixtures can return data, which PyTest will pa-sss to the test cases that refer to it...
     :return:
     """
     print("\n(Returning 1 from data_fixture)")
