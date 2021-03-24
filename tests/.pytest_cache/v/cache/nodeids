@@ -76,5 +76,6 @@
   "13_mark_parametrization.py::test_number[5]",
   "14_class_based_test.py::TestSimpleClass::test_two_checking_metho",
   "14_class_based_test.py::TestSimpleClass::test_two_checking_method",
-  "15_advanced_class_test.py::TestIntermediateClass::test1"
+  "15_advanced_class_test.py::TestIntermediateClass::test1",
+  "18_the_mocker_fixture.py::test_simple_mocking"
 ]

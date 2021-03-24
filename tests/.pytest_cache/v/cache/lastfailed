@@ -7,5 +7,6 @@
   "09_params-ception_test.py::test_fixtureception[3]": true,
   "09_params-ception_test.py::test_fixtureception[4]": true,
   "10_advanced_params-ception_test.py::test_advanced_fixtureception": true,
-  "15_advanced_class_test.py::TestIntermediateClass": true
+  "15_advanced_class_test.py::TestIntermediateClass": true,
+  "18_the_mocker_fixture.py::test_simple_mocking": true
 }
