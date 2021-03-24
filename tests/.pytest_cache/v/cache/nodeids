@@ -62,5 +62,16 @@
   "11_mark_test.py::test_fake_ulti_join_query",
   "12_special_marks.py::test_broken_feature",
   "12_special_marks.py::test_s3_api",
-  "12_special_marks.py::test_where_failure_is_acceptable"
+  "12_special_marks.py::test_where_failure_is_acceptable",
+  "13_mark_parametrization.py::test_dimension[1-1]",
+  "13_mark_parametrization.py::test_dimension[1-2]",
+  "13_mark_parametrization.py::test_dimension[2-2]",
+  "13_mark_parametrization.py::test_modes[bar]",
+  "13_mark_parametrization.py::test_modes[baz]",
+  "13_mark_parametrization.py::test_modes[foo]",
+  "13_mark_parametrization.py::test_number[1]",
+  "13_mark_parametrization.py::test_number[2]",
+  "13_mark_parametrization.py::test_number[3]",
+  "13_mark_parametrization.py::test_number[4]",
+  "13_mark_parametrization.py::test_number[5]"
 ]
