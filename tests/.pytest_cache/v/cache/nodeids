@@ -77,6 +77,8 @@
   "14_class_based_test.py::TestSimpleClass::test_two_checking_metho",
   "14_class_based_test.py::TestSimpleClass::test_two_checking_method",
   "15_advanced_class_test.py::TestIntermediateClass::test1",
+  "17_marked_meta_fixtures.py::test_with_meta_fixtures_a",
+  "17_marked_meta_fixtures.py::test_with_meta_fixtures_b",
   "18_the_mocker_fixture.py::test_simple_mocking",
   "19_re_usable_mock_test.py::test_mocker_with_exception",
   "19_re_usable_mock_test.py::test_re_usable_mocker"
