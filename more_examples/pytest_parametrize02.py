@@ -1,12 +1,27 @@
+# reference: https://www.caodanle.com/archives/12014
 import pytest
 
-data = [1, 2]
+data_1 = [
+    (1, 2, 3),
+    (4, 5, 9)
+]
 
 
-@pytest.mark.parametrize('a', data)
-def test_parametrize(a):
-    print('\n被加載測試數據為\n{}'.format(a))
+def add(a, b):
+    return a + b
+
+@pytest.mark.parametrize('a, b , expect', data_1)
+class TestParametric(object):
+
+    def test_parametrize_1(self, a, b, expect):
+        print('\n测试函数1测试数据为\n{}-{}'.format(a, b))
+        assert add(a, b) == expect
+
+    def test_parametrize_2(self, a, b, expect):
+        print('\n测试函数2测试数据为\n{}-{}'.format(a, b))
+        assert add(a, b) == expect
 
 
 if __name__ == '__main__':
-    pytest.main(['-s'])
+    pytest.main(['-sv'])
+
