@@ -1,24 +1,15 @@
 # reference : https://www.cnblogs.com/linuxchao/p/linuxchao-pytest-parametrize.html
 import pytest
 
-data_1 = [
-    (1, 2, 3),
-    (4, 5, 9)
-]
+import pytest
 
-def add(a, b):
-    return a + b
+data = [1, 2]
 
-@pytest.mark.parametrize('a, b, expect', data_1)
-class Test_parametrize(object):
 
-    def test_parametrize_1(self, a, b, expect):
-        print('\n測試函數1測試數據為\n{}-{}'.format(a, b))
-        assert add(a, b) == expect
-
-    def test_parametrize_2(self, a, b, expect):
-        print('\n測試函數2測試數據為\n{}-{}'.format(a, b))
+@pytest.mark.parametrize('a', data)
+def test_parametrize(a):
+    print('\n被加载测试数据为\n{}'.format(a))
 
 
 if __name__ == '__main__':
-    pytest.main(['-sv'])
+    pytest.main(['-s'])
