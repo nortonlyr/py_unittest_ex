@@ -2,6 +2,7 @@ import os
 import boto3
 from moto import mock_s3
 
+
 class S3Handler:
     def __init__(self):
         self.s3_session = boto3.session.Session()
@@ -18,8 +19,6 @@ class S3Handler:
             self.bucket,
             self.file_name
             )
-
-
 
 
 @mock_s3
